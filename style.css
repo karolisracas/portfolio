@@ -11,6 +11,8 @@ a {
   text-decoration: inherit;
 }
 
+/* NAVBAR */
+
 .home-link:hover,
 .menu__link:hover {
   color: #fff;
@@ -23,11 +25,6 @@ a {
   background-color: #a69b97;
   font-weight: 700;
   font-size: 1.4em;
-}
-
-.header {
-  padding-top: 100px;
-  background-color: #d7ccc8;
 }
 
 .navbar__container {
@@ -53,4 +50,25 @@ a {
 
 .menu__item {
   padding-right: 2em;
+}
+
+/* HEADER */
+
+.header {
+  padding: 80px;
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+  background-color: #d7ccc8;
+  flex-wrap: wrap;
+}
+
+.header__heading {
+  align-self: center;
+  width: 500px;
+  font-size: 3em;
+}
+
+.rocket-man {
+  width: 40%;
 }
