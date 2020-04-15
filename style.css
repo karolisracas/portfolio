@@ -11,6 +11,13 @@ a {
   text-decoration: inherit;
 }
 
+img {
+  display: block;
+	border: 0;
+	width: 100%;
+  height: auto;
+}
+
 /* NAVBAR */
 
 .home-link:hover,
@@ -123,5 +130,66 @@ a {
   .header__heading {
     font-size: 1.6em;
     text-align: center;
+  }
+}
+
+/* PORTFOLIO */
+
+.portfolio__heading {
+  text-align: center;
+  padding-top: 2em;
+  padding-bottom: 1.5em;
+  font-size: 2.4em;
+}
+
+.cards {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  margin: 3em;
+  background-color: #efebe9;
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 40px -14px rgba(0,0,0,0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  flex: 0 1 40%;
+}
+
+.card__image {
+  align-self: center;
+}
+
+.card__title {
+  font-size: 1.6em;
+  padding: .5em 1em;
+}
+
+.card__text {
+  font-size: 1.1em;
+  padding: 0 1em;
+}
+
+.card__btn {
+  background-color: #a69b97;
+  border: 0;
+  align-self: center;
+  width: 40%;
+  height: 2.2em;
+  margin: 1em 0;
+  font-size: 1.2em;
+  outline-color: #4b2c20;
+  cursor: pointer;
+}
+
+
+@media only screen and (max-width: 960px) {
+  .card {
+    flex: 0 1 100%;
   }
 }
