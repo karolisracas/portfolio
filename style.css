@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Karla', sans-serif;
   box-sizing: border-box;
@@ -171,12 +175,19 @@ img {
   flex: 0 1 40%;
 }
 
+.card:hover .card__image {
+  filter: contrast(100%)
+}
+
 .card__image {
   align-self: center;
+  filter: contrast(70%);
+  transition: filter .4s;
 }
 
 .card__title {
   font-size: 1.6em;
+  font-weight: 700;
   padding: .5em 1em;
 }
 
