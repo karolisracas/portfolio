@@ -8,6 +8,7 @@ body {
   margin: 0;
   padding: 0;
   color: #000;
+  z-index: 0;
 }
 
 a {
@@ -36,6 +37,7 @@ img {
   background-color: #a69b97;
   font-weight: 700;
   font-size: 1.4em;
+  z-index: 3;
 }
 
 .navbar__container {
