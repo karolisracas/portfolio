@@ -8,7 +8,7 @@ function scrollFunction() {
   if (navbar) {
     if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
       navbar.style.height = "60px";
-      navbar.style.fontSize = "1.1em";
+      navbar.style.fontSize = "1.2em";
     } else {
       navbar.style.height = "100px";
       navbar.style.fontSize = "1.4em";

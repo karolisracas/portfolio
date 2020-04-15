@@ -38,6 +38,7 @@ img {
   font-weight: 700;
   font-size: 1.4em;
   z-index: 3;
+  transition: height .3s ease-in-out;
 }
 
 .navbar__container {
@@ -173,12 +174,17 @@ img {
   box-shadow: 0 20px 40px -14px rgba(0,0,0,0.25);
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   overflow: hidden;
   flex: 0 1 40%;
 }
 
 .card:hover .card__image {
   filter: contrast(100%)
+}
+
+.card__content {
+  padding: 1em;
 }
 
 .card__image {
@@ -196,6 +202,14 @@ img {
 .card__text {
   font-size: 1.1em;
   padding: 0 1em;
+}
+
+.card__link {
+  color: #f57c00;
+}
+
+.card__link:hover {
+  color: #bb4d00;
 }
 
 .card__btn {
