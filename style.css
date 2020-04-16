@@ -11,6 +11,10 @@ body {
   z-index: 0;
 }
 
+.paragraph {
+  line-height: 1.4;
+}
+
 a {
   color: inherit;
   text-decoration: inherit;
@@ -59,7 +63,6 @@ img {
   position: fixed;
   width: 100%;
   height: 100px;
-  /* background-color: #a69b97; */
   font-weight: 500;
   font-size: 1.4em;
   z-index: 3;
@@ -211,7 +214,7 @@ img {
   margin: 0 auto;
 }
 
-.portfolio__heading {
+.section-heading {
   text-align: center;
   padding-top: 2em;
   padding-bottom: 1.5em;
@@ -284,9 +287,36 @@ img {
   }
 }
 
-
 @media only screen and (max-width: 960px) {
   .card {
     flex: 0 1 100%;
   }
+}
+
+/* ABOUT ME */
+
+.about {
+  max-width: 1360px;
+  margin: 0 auto;
+}
+
+.about__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.about__photo {
+  width: 25%;
+}
+
+.about__img {
+  border-radius: 50%;
+}
+
+.about__content {
+  padding: 0 5em;
+  width: 50%;
 }
