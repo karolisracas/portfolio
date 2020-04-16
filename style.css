@@ -1,3 +1,10 @@
+/* COLORS */
+
+:root {
+  --btn-color: #ffa260;
+  --btn-hover-color: #ffa260;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -13,6 +20,7 @@ body {
 
 .paragraph {
   line-height: 1.4;
+  font-size: 1.1em;
 }
 
 a {
@@ -43,14 +51,6 @@ img {
   box-shadow: inset 10em 0 0 0 var(--btn-hover-color);
   color: #fff;
 }
-
-/* COLORS */
-
-:root {
-  --btn-color: #ffa260;
-  --btn-hover-color: #ffa260;
-}
-
 
 /* NAVBAR */
 
@@ -314,9 +314,47 @@ img {
 
 .about__img {
   border-radius: 50%;
+  animation: pulse 2s infinite;
+  box-shadow: 0 0 0 rgba(96,68,57, 0.4);
 }
 
 .about__content {
   padding: 0 5em;
   width: 50%;
+}
+
+@keyframes pulse {
+  0% {
+    -moz-box-shadow: 0 0 0 0 rgba(207,176,156, 0.4);
+    box-shadow: 0 0 0 0 rgba(207,176,156, 0.4);
+  }
+  70% {
+      -moz-box-shadow: 0 0 0 15px rgba(207,176,156, 0);
+      box-shadow: 0 0 0 15px rgba(207,176,156, 0);
+  }
+  100% {
+      -moz-box-shadow: 0 0 0 0 rgba(207,176,156, 0);
+      box-shadow: 0 0 0 0 rgba(207,176,156, 0);
+  }
+}
+
+/* CONTACT */
+
+.contact {
+  text-align: center;
+  padding-bottom: 4em;
+  background-color: #d7ccc8;
+  clip-path: polygon(0 10%,100% 0,100% 100%,0 100%);
+}
+
+.contact__heading {
+  padding-bottom: 0;
+}
+
+.contact__btn {
+  border-color: var(--btn-color);
+}
+
+.contact__text {
+  font-size: 2em;
 }
