@@ -24,6 +24,7 @@ img {
 }
 
 .btn {
+  display: inline-block;
   background: none;
   border: 4px solid;
   font: inherit;
@@ -121,12 +122,13 @@ img {
 
 .header__subheading {
   font-size: 2vw;
+  margin-bottom: 0;
 }
 
 .header__btn {
   border-color: var(--btn-color);
   font-size: 1vw;
-  margin: 2em 0;
+  margin: .4em 0;
 }
 .rocket-man {
   width: 40vw;
@@ -141,11 +143,25 @@ img {
 
 @media only screen and (max-width: 1024px) {
   .rocket-man {
-    width: 60%;
+    width: 60vw;
+  }
+
+  .header__text {
+    width: 60vw;
+    padding-top: 20vh;
+    text-align: center;
   }
 
   .header__heading {
-    padding-bottom: 0;
+    font-size: 10vw;
+  }
+  
+  .header__subheading {
+    font-size: 3vw;
+  }
+
+  .header__btn {
+    font-size: 2vw;
   }
 }
 
@@ -157,6 +173,18 @@ img {
 
   .rocket-man {
     width: 80%;
+  }
+
+  .header__heading {
+    font-size: 12vw;
+  }
+  
+  .header__subheading {
+    font-size: 4vw;
+  }
+
+  .header__btn {
+    font-size: 2.5vw;
   }
 }
 

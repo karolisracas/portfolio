@@ -6,12 +6,15 @@ function scrollFunction() {
   let navbar = document.querySelector('.navbar');
 
   if (navbar) {
-    if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
       navbar.style.height = "60px";
       navbar.style.fontSize = "1.2em";
-      navbar.style.backgroundColor = "#d7ccc8";
+      if (window.matchMedia("(max-width: 1024px)").matches) {
+        navbar.style.backgroundColor = "#af9b8a";
+      } else {
+        navbar.style.backgroundColor = "#d7ccc8";
+      }
     } else {
-
       navbar.style.height = "100px";
       navbar.style.fontSize = "1.4em";
       navbar.style.backgroundColor = "transparent";
