@@ -20,4 +20,4 @@ function scrollFunction() {
       navbar.style.backgroundColor = "transparent";
     }
   } 
-}
+}3

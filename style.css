@@ -343,8 +343,9 @@ img {
 .contact {
   text-align: center;
   padding-bottom: 4em;
-  background-color: #d7ccc8;
   clip-path: polygon(0 10%,100% 0,100% 100%,0 100%);
+  background: rgb(215,204,200);
+  background: linear-gradient(180deg, rgba(215,204,200,1) 0%, rgba(208,195,190,1) 35%, rgba(201,186,180,1) 100%);
 }
 
 .contact__heading {
@@ -357,4 +358,30 @@ img {
 
 .contact__text {
   font-size: 2em;
+}
+
+/* FOOTER */
+
+.footer {
+  background: rgb(172,149,141);
+  background: linear-gradient(180deg, rgba(172,149,141,1) 0%, rgba(165,140,131,1) 78%, rgba(165,140,131,1) 100%);
+}
+
+.footer__icons {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+}
+
+.footer__icon {
+  padding: 0 2em;
+  font-size: 1.6em;
+  transition: transform .2s ease-in-out;
+}
+
+.footer__icon:hover {
+  color: var(--btn-color);
+  transform: translateY(-.2em);
 }
