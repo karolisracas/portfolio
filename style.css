@@ -175,6 +175,10 @@ img {
     width: 80%;
   }
 
+  .header__text {
+    padding-top: 10vh;
+  }
+
   .header__heading {
     font-size: 12vw;
   }
@@ -268,7 +272,7 @@ img {
 }
 
 .card__btn {
-  width: 30%;
+  min-width: 30%;
   border-color: var(--btn-color);
   align-self: center;
 }
