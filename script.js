@@ -6,7 +6,7 @@ function scrollFunction() {
   let navbar = document.querySelector('.navbar');
 
   if (navbar) {
-    if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+    if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
       navbar.style.height = "60px";
       navbar.style.fontSize = "1.2em";
       navbar.style.backgroundColor = "#d7ccc8";
