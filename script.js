@@ -10,9 +10,9 @@ function scrollFunction() {
       navbar.style.height = "60px";
       navbar.style.fontSize = "1.2em";
       if (window.matchMedia("(max-width: 1024px)").matches) {
-        navbar.style.backgroundColor = "#af9b8a";
+        navbar.style.backgroundColor = "#492d15";
       } else {
-        navbar.style.backgroundColor = "#d7ccc8";
+        navbar.style.backgroundColor = "#492d15";
       }
     } else {
       navbar.style.height = "100px";
