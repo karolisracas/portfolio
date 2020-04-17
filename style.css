@@ -136,7 +136,7 @@ img {
 .rocket-man {
   width: 40vw;
   padding-bottom: 80px;
-  animation: shake 10s;
+  animation: shake 30s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
 }
