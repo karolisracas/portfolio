@@ -1,8 +1,8 @@
 /* COLORS */
 
 :root {
-  --btn-color: #ffa260;
-  --btn-hover-color: #ffa260;
+  --btn-color: #af5032;
+  --btn-hover-color: #c75d3c;
 }
 
 html {
@@ -18,7 +18,8 @@ body {
   z-index: 0;
 }
 
-.paragraph {
+.paragraph,
+.list {
   line-height: 1.4;
   font-size: 1.1em;
 }
@@ -37,18 +38,20 @@ img {
 
 .btn {
   display: inline-block;
-  background: none;
-  border: 4px solid;
+  background: var(--btn-color);
+  border: 0;
+  border-radius: 50px;
   font: inherit;
   line-height: 1;
   margin: 0.5em;
   padding: 1em 2em;
   transition: 0.25s;
+  color:#fff
 }
 
 .btn:hover,
 .btn:focus {
-  box-shadow: inset 10em 0 0 0 var(--btn-hover-color);
+  box-shadow: inset 11em 0 0 0 var(--btn-hover-color);
   color: #fff;
 }
 
@@ -119,13 +122,15 @@ img {
 }
 
 .header__heading {
-  font-size: 6vw;
+  font-size: 5.2vw;
   line-height: 1.1;
+  letter-spacing: .03em;
 }
 
 .header__subheading {
   font-size: 2vw;
   margin-bottom: 0;
+  letter-spacing: .05em;
 }
 
 .header__btn {
@@ -279,7 +284,6 @@ img {
 
 .card__btn {
   min-width: 30%;
-  border-color: var(--btn-color);
   align-self: center;
 }
 
@@ -327,7 +331,6 @@ img {
 }
 
 .about__btn {
-  border-color: var(--btn-color);
   margin-left: 0;
 }
 
