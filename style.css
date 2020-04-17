@@ -363,12 +363,22 @@ img {
   padding-bottom: 0;
 }
 
-.contact__btn {
-  border-color: var(--btn-color);
+.contact__link {
+  font-size: 1.4em;
+  margin: 1em 0;
+  vertical-align: middle;
+}
+
+.contact__link:hover {
+  color: var(--btn-hover-color);
 }
 
 .contact__text {
   font-size: 2em;
+}
+
+.contact__link {
+  display: block;
 }
 
 /* FOOTER */
@@ -392,7 +402,7 @@ img {
 }
 
 .footer__icon:hover {
-  color: var(--btn-color);
+  color: var(--btn-hover-color);
   transform: translateY(-.2em);
 }
 
