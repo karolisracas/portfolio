@@ -130,7 +130,6 @@ img {
 .header__text {
   padding: 3em 0;
   align-self: center;
-  max-width: 40rem;
 }
 
 .header__heading {
@@ -166,6 +165,18 @@ img {
   .menu-container {
     padding-right: 40px;
   }
+
+  .header__heading {
+    font-size: 5.5vw;
+  }
+  
+  .header__subheading {
+    font-size: 2.5vw;
+  }
+
+  .header__btn {
+    font-size: 1.5vw;
+  }
 }
 
 @media only screen and (max-width: 1024px) {
@@ -174,7 +185,7 @@ img {
   }
 
   .header__text {
-    width: 60vw;
+    width: 90vw;
     padding-top: 20vh;
     text-align: center;
   }
@@ -262,11 +273,11 @@ img {
   }
   
   .header__subheading {
-    font-size: 4vw;
+    font-size: 4.3vw;
   }
 
   .header__btn {
-    font-size: 2.5vw;
+    font-size: 3vw;
   }
 }
 
@@ -472,6 +483,17 @@ img {
 .footer__icon:hover {
   color: var(--btn-hover-color);
   transform: translateY(-.2em);
+}
+
+@media only screen and (max-width: 500px) {
+  .footer__icon {
+    padding: 0;
+  }
+
+  .footer__icons {
+    justify-content: space-around;
+    padding: 0 10vw;
+  }
 }
 
 /* EXTRA ANIMATIONS */
