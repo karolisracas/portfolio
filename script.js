@@ -21,13 +21,24 @@ function scrollFunction() {
   }
 }
 
+// Hamburger Toggle
+
 function hamburgerToggle() {
   let hamburger = document.querySelector('.hamburger');
   let menu = document.querySelector('.menu-container');
+  let menuItems =  document.querySelectorAll('.menu__item');
 
   if (hamburger && menu) {
     hamburger.addEventListener("click", function(){
       menu.classList.toggle('menu-container--active');
+    });
+  }
+
+  if (menuItems) {
+    menuItems.forEach( item => {
+      item.addEventListener("click", function(){
+        hamburger.click();
+      })
     });
   }
 }
