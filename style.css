@@ -59,7 +59,7 @@ img {
 
 .home-link:hover,
 .menu__link:hover {
-  color: #fff;
+  color: var(--btn-hover-color);
 }
 
 .navbar {
@@ -102,6 +102,11 @@ img {
 .hamburger-container {
   display: none;
   justify-content: flex-end;
+}
+
+.menu__link {
+  display: block;
+  width: 100%;
 }
 
 /* HEADER */
