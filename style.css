@@ -261,7 +261,7 @@ img {
   }
 
   .rocket-man {
-    width: 80%;
+    width: 90vw;
   }
 
   .header__text {
@@ -279,10 +279,6 @@ img {
 
   .header__btn {
     font-size: 4vw;
-  }
-
-  .rocket-man {
-    width: 90%;
   }
 }
 
