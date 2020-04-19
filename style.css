@@ -231,8 +231,11 @@ img {
 
   .menu__item {
     width: 100%;
-    padding: 20px 0;
     text-align: center;
+  }
+
+  .menu__link {
+    padding: 20px 0;
   }
 }
 
