@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<products>
+	<product>
+		<product_id>000000000000002001</product_id>
+		<product_name>Hortex Sok Pomarańcza 100 % Pet 1 L</product_name>
+		<product_deeplink>https://ad.doubleclick.net/ddm/clk/524270002;332034890;p?https://www.barbora.pl/produkty/hortex-sok-pomarancza-100-proc-pet-1-l?utm_source=Adform&amp;utm_medium=display&amp;utm_campaign=DCO&amp;utm_content=feed</product_deeplink>
+		<product_image>https://cdn.barbora.pl/products/ba7dda1e-49db-4692-b130-fae1a6e1194e_m.png</product_image>
+		<product_price>4.18 PLN</product_price>
+		<product_sales_price><![CDATA[3.59 PLN]]></product_sales_price>
+		<product_category_id>Napoje &gt; Soki, nektary i napoje &gt; Soki</product_category_id>
+	</product>
+  	<product>
+		<product_id>000000000000004529</product_id>
+		<product_name>Naturavena Hummus Paprykowy Bio 185 G</product_name>
+		<product_deeplink>https://ad.doubleclick.net/ddm/clk/524270002;332034890;p?https://www.barbora.pl/produkty/naturavena-hummus-paprykowy-bio-185-g?utm_source=Adform&amp;utm_medium=display&amp;utm_campaign=DCO&amp;utm_content=feed</product_deeplink>
+		<product_image>https://cdn.barbora.pl/products/f819e69d-6b28-4492-9ed6-b82089bb5b56_m.png</product_image>
+		<product_price>6.66 PLN</product_price>
+		<product_category_id>Strefa EKO &gt; Sosy, pasty, hummus, majonezy i dżemy ekologiczne</product_category_id>
+	</product>
+  	<product>
+		<product_id>000000000000004530</product_id>
+		<product_name>Naturavena Hummus Oliwkowy Bio 185 G</product_name>
+		<product_deeplink>https://ad.doubleclick.net/ddm/clk/524270002;332034890;p?https://www.barbora.pl/produkty/naturavena-hummus-oliwkowy-bio-185-g?utm_source=Adform&amp;utm_medium=display&amp;utm_campaign=DCO&amp;utm_content=feed</product_deeplink>
+		<product_image>https://cdn.barbora.pl/products/d3eaafbd-e8af-4766-80c5-c2774886b957_m.png</product_image>
+		<product_price>6.66 PLN</product_price>
+		<product_category_id>Strefa EKO &gt; Sosy, pasty, hummus, majonezy i dżemy ekologiczne</product_category_id>
+	</product>
+  <product>
+		<product_id>000000000000004531</product_id>
+		<product_name>Naturavena Hummus Naturalny Bio 185 G</product_name>
+		<product_deeplink>https://ad.doubleclick.net/ddm/clk/524270002;332034890;p?https://www.barbora.pl/produkty/naturavena-hummus-naturalny-bio-185-g?utm_source=Adform&amp;utm_medium=display&amp;utm_campaign=DCO&amp;utm_content=feed</product_deeplink>
+		<product_image>https://cdn.barbora.pl/products/65844040-0512-48a7-8da2-4b1c9b6c385c_m.png</product_image>
+		<product_price>6.66 PLN</product_price>
+		<product_category_id>Strefa EKO &gt; Sosy, pasty, hummus, majonezy i dżemy ekologiczne</product_category_id>
+	</product>
+  <product>
+		<product_id>000000000000004793</product_id>
+		<product_name>Bebilon Mleko W Proszku 2 Po 6 Miesiacu 800 G</product_name>
+		<product_deeplink>https://ad.doubleclick.net/ddm/clk/524270002;332034890;p?https://www.barbora.pl/produkty/bebilon-mleko-w-proszku-2-po-6-miesiacu-800-g?utm_source=Adform&amp;utm_medium=display&amp;utm_campaign=DCO&amp;utm_content=feed</product_deeplink>
+		<product_image>https://cdn.barbora.pl/products/72bd0bd1-eb65-4400-b7b5-f1f31017dcd3_m.png</product_image>
+		<product_price>50.49 PLN</product_price>
+		<product_category_id>Produkty dla niemowląt i dzieci &gt; Mleko w proszku &gt; Mieszanki mleczne od 6 mies.</product_category_id>
+	</product>
+  <product>
+		<product_id>000000000000004794</product_id>
+		<product_name>Bebiko Mleko W Proszku 2 Po 6 Miesiącu 350 G</product_name>
+		<product_deeplink>https://ad.doubleclick.net/ddm/clk/524270002;332034890;p?https://www.barbora.pl/produkty/bebiko-mleko-w-proszku-2-po-6-miesiacu-350-g?utm_source=Adform&amp;utm_medium=display&amp;utm_campaign=DCO&amp;utm_content=feed</product_deeplink>
+		<product_image>https://cdn.barbora.pl/products/6ba46770-79ad-4f7a-9c1f-73b26b83b7e5_m.png</product_image>
+		<product_price>16.18 PLN</product_price>
+		<product_category_id>Produkty dla niemowląt i dzieci &gt; Mleko w proszku &gt; Mieszanki mleczne od 6 mies.</product_category_id>
+	</product>
+  <product>
+		<product_id>000000000000004924</product_id>
+		<product_name>Pedigree Rodeo Przekąska Dla Psa 122 G</product_name>
+		<product_deeplink>https://ad.doubleclick.net/ddm/clk/524270002;332034890;p?https://www.barbora.pl/produkty/pedigree-rodeo-przekaska-dla-psa-122-g?utm_source=Adform&amp;utm_medium=display&amp;utm_campaign=DCO&amp;utm_content=feed</product_deeplink>
+		<product_image>https://cdn.barbora.pl/products/f28eb06c-8e04-471c-9371-9f5241aaa9ec_m.png</product_image>
+		<product_price>4.19 PLN</product_price>
+		<product_category_id>Produkty dla zwierząt &gt; Psy &gt; Przysmaki dla psa</product_category_id>
+	</product>
+  <product>
+		<product_id>000000000000088402</product_id>
+		<product_name>Yope Żel Pod Prysznic Drzewo Cedrowe, Jałowiec, Chilli 400Ml</product_name>
+		<product_deeplink>https://ad.doubleclick.net/ddm/clk/524270002;332034890;p?https://www.barbora.pl/produkty/yope-zel-pod-prysznic-drzewo-cedrowe-ja-owiec-chilli-400-ml?utm_source=Adform&amp;utm_medium=display&amp;utm_campaign=DCO&amp;utm_content=feed</product_deeplink>
+		<product_image>https://cdn.barbora.pl/products/8b69d009-ea86-4cdd-a183-a6ac5f1ba1ee_m.png</product_image>
+		<product_price>18.99 PLN</product_price>
+		<product_category_id>Kosmetyki i higiena &gt; Produkty do pielęgnacji ciała &gt; Żel pod prysznic</product_category_id>
+	</product>
+  <product>
+		<product_id>000000000000004925</product_id>
+		<product_name>Pedigree Przekąska Dla Psa Dentastix Duże Rasy 270 G</product_name>
+		<product_deeplink>https://ad.doubleclick.net/ddm/clk/524270002;332034890;p?https://www.barbora.pl/produkty/pedigree-przekaska-dla-psa-dentastix-duze-rasy-270-g?utm_source=Adform&amp;utm_medium=display&amp;utm_campaign=DCO&amp;utm_content=feed</product_deeplink>
+		<product_image>https://cdn.barbora.pl/products/085ecf1c-79b9-4594-9363-458ef321811d_m.png</product_image>
+		<product_price>9.19 PLN</product_price>
+		<product_category_id>Produkty dla zwierząt &gt; Psy &gt; Przysmaki dla psa</product_category_id>
+	</product>
+  <product>
+		<product_id>000000000000002921</product_id>
+		<product_name>Dan Cake Rolada Truskawkowa 300 G</product_name>
+		<product_deeplink>https://ad.doubleclick.net/ddm/clk/524270002;332034890;p?https://www.barbora.pl/produkty/dan-cake-rolada-truskawkowa-300-g?utm_source=Adform&amp;utm_medium=display&amp;utm_campaign=DCO&amp;utm_content=feed</product_deeplink>
+		<product_image>https://cdn.barbora.pl/products/c5c173e1-186a-4ab2-9977-1115dcc3330b_m.png</product_image>
+		<product_price>5.71 PLN</product_price>
+		<product_category_id>Pieczywo i wyroby cukiernicze &gt; Wyroby cukiernicze &gt; Ciasta</product_category_id>
+	</product>
+</products>
