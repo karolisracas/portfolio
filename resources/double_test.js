@@ -76,7 +76,7 @@
 			if(regOne){
 				var regTwo = this;
 				var referenceDiv = {
-					'stern.de' : '#main-wrapper',
+					'stern.de' : '.page__content',
 					'chefkoch.de' : '#page-wrapper',
 					'brigitte.de' : '#wrapper',
 					'arcor.de' : '.pContent',
