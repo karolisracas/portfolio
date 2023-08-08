@@ -1,12 +1,293 @@
-(function(n,y,M,l){var a=function(b,d){b=b.getElementsByTagName("script");for(var g=0;g<b.length;g++)if(!b[g].getAttribute("data-parsed")&&b[g].src&&0<b[g].src.indexOf(d)){var a={},h=!1;b[g].src.replace(/([^?=;]+)(=([^;]*))?/g,function(b,d,e,c){h||(h=d);a[d]=c});a.url=h;b[g].setAttribute("data-parsed",!0);delete a[h];return a}return{}}(y,"DoubleSideBar_guj.js"),G=(a.compoundSeqNo?a.bn+"#"+a.compoundSeqNo:a.bn)||n.ADFafbanID,f=n.location.hostname,m=n.top||n,b=m.document,H=b.body,N=a.sticky||1,I=a.ratio||
-1,O=a.fit||1,J=a.scale||1.5,p=a.hide||200,K=a.top||0,L=a.distance||960,q=!1,h=0,r=0;-1<f.indexOf("chefkoch.de")&&l.push(["resizeInFIF",!1]);-1<f.indexOf("stern.de")&&l.push(["resizeInFIF",!1]);-1<f.indexOf("spiegel.de")&&l.push(["resizeInFIF",!1]);-1<f.indexOf("n-tv.de.de")&&l.push(["resizeInFIF",!1]);"undefined"!==typeof GujAd&&GujAd.getClient().getContentWidth()&&(q=!0,h=GujAd.getClient().getContentWidth(),r=GujAd.$("body").width()?(GujAd.$("body").width()-h)/2:(n.top.innerWidth-h)/2,L=h);l=n._adform=
-n._adform||[];l.push([G+"#2.on.init",function(a){var d=M.lib,g=m.Adform.adRegister[G+"#1"];if(g){a=function(){setTimeout(F,200)};var l=function(b,c,a){cssId="undefined"!==typeof c?c:"adform-custom";a="undefined"!==typeof a?a:y;d.byId(cssId,a)?(style=d.byId(cssId,a),style.innerHTML=b):(style=a.createElement("style"),style.type="text/css",style.id=cssId,style.styleSheet?style.styleSheet.cssText=b:style.appendChild(a.createTextNode(b)),a.getElementsByTagName("head")[0].appendChild(style))},E=function(){if(N){if(-1<
-f.indexOf("moviepilot.de")||-1<f.indexOf("gamespilot.de"))K=b.getElementsByClassName("navigation--wrapper")[0].offsetHeight;css=".sidebar-fixed {position:fixed; top:"+K+"px !important; margin-left:0 !important;}";w=k&&k.getBoundingClientRect();u=e.getBoundingClientRect();A=c.getBoundingClientRect();xPosOne=k?+w.left+k.offsetWidth:u.left;xPosTwo=k?+w.left-c.offsetWidth:A.left;if(1==q||"true"==q)xPosOne=r+h,xPosTwo=r-c.offsetWidth;yPos=m.pageYOffset;yPos>=B?(d.addClass(e,"sidebar-fixed"),d.addClass(c,
-"sidebar-fixed"),e.style.left=xPosOne+"px",css+=".sidebar-fixed.sidebar-two {left:"+xPosTwo+"px !important;}"):(d.removeClass(e,"sidebar-fixed"),d.removeClass(c,"sidebar-fixed"),e.style.left=0,c.style.top=B+"px");l(css,"adform-double-sidebar",b)}},F=function(){sidebarScale=J?J:0;var a=m.innerHeight-B,z=g.settings.html.width/sidebarScale,t=g.settings.html.height/sidebarScale,f=v.settings.html.height/sidebarScale;var y=".sidebar-one {margin:0;} .hidebar {display:none !important;}"+(1==I?".sidebar-one {min-width:"+
-g.settings.html.width/sidebarScale+"px; min-height:"+t+"px; .sidebar-two {min-width:"+v.settings.html.width/sidebarScale+"px; min-height:"+v.settings.html.height/sidebarScale+"px;} @media screen and (max-width: 1420px) { #SIMAD_wrapper_skyscraper {max-width: "+g.settings.html.width/sidebarScale+"px;} }":"");y+=O?".sidebar-one, .sidebar-two {max-height:"+a+"px;}":"";C&&(e.style.marginLeft=-C+"px");xPosOne=k?+w.left+k.offsetWidth:u.left;xPosTwo=k?+w.left-c.offsetWidth:A.left;distance=k?k.offsetWidth:
-L;widthOne=H.clientWidth-xPosOne;if(1==q||"true"==q)r="undefined"!==typeof GujAd&&GujAd.$("body").width()?(GujAd.$("body").width()-h)/2:(n.top.innerWidth-h)/2,xPosOne=r+h,xPosTwo=r-c.offsetWidth,widthOne=H.clientWidth-xPosOne,distance=h;widthTwo=xPosOne-distance;newWidthTwo=p&&widthTwo<=p?p:widthTwo;0!=I?(a/widthOne<D&&a>=t?(e.style.height=a+"px",e.style.width=a/D+"px"):(e.style.width=widthOne<=z||a<=t?z+"px":widthOne+"px",e.style.height=widthOne<=z||a<=t?t+"px":widthOne*D+"px"),a/widthTwo<x&&a>=
-f?(c.style.height=a+"px",c.style.width=a/x+"px",newWidthTwo=a/x):(c.style.height=widthTwo<=p||a<=f?f+"px":widthTwo*x+"px",c.style.width=widthTwo<=p||a<=f?f/x+"px":newWidthTwo+"px",newWidthTwo=a<=f?f/x:newWidthTwo)):(e.style.width=widthOne<=z?z+"px":widthOne+"px",e.style.height=a<=t?t+"px":a+"px",c.style.width=newWidthTwo+"px",c.style.height=a<=f?f+"px":a+"px");widthTwo<=p?d.addClass(c,"hidebar"):d.removeClass(c,"hidebar");d.hasClass(e,"sidebar-fixed")&&(e.style.left=xPosOne+"px");c.style.marginLeft=
--(+distance+newWidthTwo)+"px";l(y,"adform-double-sidebar-size",b);E()},v=this,e=g.adBox.get("element").parentNode,c=v.adBox.get("element").parentNode,k=function(a){var c=f,e=d.byId("holder",b)||d.byId("contentContainer",b)||d.byId("page",b)||d.byId("main",b)||d.byId("mainHeader",b)||d.byId("wrapper_content",b)||b.getElementsByClassName("centeredDiv")[1]||d.byId("ads-outer",b)||d.byId("header",b)||d.byId("content",b)||b.getElementsByClassName("s1-main-content")[0]||b.getElementsByClassName("s1-content-container")[0]||
-b.getElementsByClassName("sp-opener-list")[0]||d.byId("wrapper",b);c=c.substring(c.lastIndexOf(".",c.lastIndexOf(".")-1)+1);if(refElem=a[c])prefix=refElem.charAt(0),idClass=refElem.substr(1),e="#"==prefix?d.byId(idClass,b):b.getElementsByClassName(idClass)[0];return e}({"stern.de":".page__content","chefkoch.de":"#page-wrapper","brigitte.de":"#wrapper","arcor.de":".pContent","seniorbook.de":".wrapper"}),w=k&&k.getBoundingClientRect();e.style.display="block";c.style.display="block";var u=e.getBoundingClientRect(),
-A=c.getBoundingClientRect();-1<f.indexOf("stern.de")&&(u={top:0,left:e.getBoundingClientRect().left},A={top:0,left:c.getBoundingClientRect().left});var B=+u.top+m.pageYOffset,C=k?u.left-(+w.left+k.offsetWidth):0;if(1==q||"true"==q)C=u.left-(+r+h);var D=g.settings.html.height/g.settings.html.width,x=v.settings.html.height/v.settings.html.width;d.addClass(e,"sidebar-one");d.addClass(c,"sidebar-two");-1===f.indexOf("verivox.de")&&(p=160);d.addEvent(m,"resize",F);d.addEvent(m,"resize",a);d.addEvent(m,
-"scroll",E);d.addEvent(m,"scroll",a);a()}}])})(window,document,Adform=window.Adform||{});
+(function(window, document, Adform, _adform) {
+    function getQuery(doc, name) {
+        var scripts = doc.getElementsByTagName('script');
+        for (var i = 0; i < scripts.length; i++) {
+            var parsed = scripts[i].getAttribute('data-parsed');
+            if (!parsed && scripts[i].src && scripts[i].src.indexOf(name) > 0) {
+                var obj = {},
+                    once = false;
+                scripts[i].src.replace(/([^?=;]+)(=([^;]*))?/g, function($0, $1, $2, $3) {
+                    if (!once) once = $1;
+                    obj[$1] = $3;
+                });
+                obj.url = once;
+                scripts[i].setAttribute('data-parsed', true);
+                delete obj[once];
+                return obj;
+            }
+        }
+        return {};
+    }
+
+    var query = getQuery(document, 'DoubleSideBar.js');
+    var bn = (query.compoundSeqNo ? (query.bn + '#' + query.compoundSeqNo) : query.bn) || window.ADFafbanID;
+
+    var domain = window.location.hostname,
+        win = window.top || window,
+        pDoc = win.document,
+        pBody = pDoc.body;
+
+    var sticky = query.sticky || 1; //make sidebars position fixed after they reach viewport top
+    var keepRatio = query.ratio || 1; //keep sidebars ratio
+    var fitScreen = query.fit || 1; //avoid vertical overflow
+    var matchHeight = query.match || 0; //not used yet
+    var scale = query.scale || 1.5; //scale min size of sidebars
+    var minWidthTwo = query.hide || 200; //hide left sidebar if left space is less than set # of pixels
+    var topOffset = query.top || 0; //# of pixels from top when sidebars are in position fixed
+    var defaultDistance = query.distance || 960; //set default distance between sidebars if unable to retrieve content width
+    /* Publisher GuJ wants us to use their function for content width calculation. All needed variables are defined below */
+    var publisherGuj = false;
+    var gujContentWidth = 0;
+    var posSiteLeft = 0;
+
+    if (typeof GujAd !== 'undefined' && GujAd.getClient().getContentWidth()) {
+        publisherGuj = true;
+        gujContentWidth = GujAd.getClient().getContentWidth();
+        if (GujAd.$('body').width()) posSiteLeft = ((GujAd.$('body').width() - gujContentWidth) / 2); //replaced "window.top.innerWidth" with "GujAd.$('body').width()"
+        else posSiteLeft = (window.top.innerWidth - gujContentWidth) / 2;
+        defaultDistance = gujContentWidth;
+    }
+
+
+    var _adform = window._adform = (window._adform || []);
+    // Hot-fix for SevenOne. Ticket ID: TNF-752-34374
+	_adform.push(
+	    [bn + '#2.panel', { from: 1, position: 'liti', sticky: false }]
+	);
+
+    _adform.push([bn + '#2.' + 'on.init',
+        function(settings) {
+
+            var lib = Adform.lib;
+            var regOne = win.Adform.adRegister[bn + '#1'];
+
+            //console.log(this);
+            // console.log(regOne);
+
+            if (regOne) {
+                var regTwo = this;
+                var referenceDiv = {
+                    'eatsmarter.de': '.offset',
+                    'verivox.de': '#wrapper',
+                    'prosieben.de': '#main',
+                    'sat1.de': '#main',
+                    'autoplenum.de': '#holder',
+                    'gamestar.de': '.centeredDiv',
+                    'n24.de': '#ads-outer',
+                    'ran.de': '#main',
+                    'sport1.de': '#ads-outer',
+                    'wetter.com': '#page',
+                    'sixx.de': '#main',
+                    'gamepro.de': '.centeredDiv',
+                    'gesundheit.de': '#contentContainer',
+                    'serienjunkies.de': '#ads-outer',
+                    'moviepilot.de': '#page',
+                    'promipool.de': '#ads-outer',
+                    'gamespilot.de': '#ads-outer',
+                    'kabeleins.de': '#main',
+                    '321kochen.tv': '#wrapper_content',
+                    'bundesliga.de': '#page',
+                    'onlinewelten.com': '#main',
+                    'songtexte.com': '#main',
+                    'tier.tv': '#ads-outer',
+                    'stern.de': '#main-wrapper',
+                    'chefkoch.de': '#page-wrapper',
+                    'brigitte.de': '.main-wrapper',
+                    'arcor.de': '.pContent',
+                    'seniorbook.de': '.wrapper',
+                    'sportal.de': '#Content'
+                };
+
+                    if(domain.indexOf('eatsmarter.de') > -1) {
+                        var css = '.offset {width: 970px;}';
+                        addCSS(css, 'adform', pDoc);
+                    }
+
+                var getRefElement = function(refObj) {
+                    var hostName = domain;
+                    //set possible value of mainContent if domain hasn't been certified
+                    var mainContent = lib.byId('holder', pDoc) || lib.byId('contentContainer', pDoc) || lib.byId('page', pDoc) || lib.byId('main', pDoc) || lib.byId('mainHeader', pDoc) || lib.byId('wrapper_content', pDoc) || pDoc.getElementsByClassName('centeredDiv')[1] || lib.byId('ads-outer', pDoc) || lib.byId('header', pDoc) || lib.byId('content', pDoc) || pDoc.getElementsByClassName('s1-main-content')[0] || pDoc.getElementsByClassName('s1-content-container')[0] || pDoc.getElementsByClassName('sp-opener-list')[0] || lib.byId('wrapper', pDoc) || pDoc.getElementsByTagName('main')[0] || lib.byId('innerWrapper', pDoc);
+
+                    hostName = hostName.substring(hostName.lastIndexOf(".", hostName.lastIndexOf(".") - 1) + 1);
+                    refElem = refObj[hostName];
+                    if (refElem) {
+                        prefix = refElem.charAt(0);
+                        idClass = refElem.substr(1);
+                        mainContent = (prefix == '#') ? lib.byId(idClass, pDoc) : pDoc.getElementsByClassName(idClass)[0];
+                    }
+                    return mainContent;
+                };
+
+                //Set sidebar divs
+                var sideBarOne = regOne.adBox.get('element').parentNode;
+                var sideBarTwo = regTwo.adBox.get('element').parentNode;
+                //Find content element
+                var mainContent = getRefElement(referenceDiv);
+
+                //Get initial elements position
+                var posSite = mainContent && mainContent.getBoundingClientRect();
+                sideBarOne.style.display = 'block';
+                sideBarTwo.style.display = 'block';
+                var posOne = sideBarOne.getBoundingClientRect();
+                var posTwo = sideBarTwo.getBoundingClientRect();
+
+                if (domain.indexOf('stern.de') > -1) {
+                    // posOne = { top: 0 left: sideBarOne.getBoundingClientRect().left };
+                    // posTwo = { top: 0, left: sideBarTwo.getBoundingClientRect().left };
+                }
+
+                var yPosStart = +posOne.top + win.pageYOffset + parseInt(topOffset, 10); //initial sidebar Y
+
+                var marginOne = (mainContent) ? posOne.left - (+posSite.left + mainContent.offsetWidth) : 0; //margin needed in order to correctly position sidebars on scroll
+                if (publisherGuj == true || publisherGuj == "true") {
+                    marginOne = posOne.left - (+posSiteLeft + gujContentWidth);
+                }
+
+                //Get sidebars ratio
+                var ratioOne = regOne.settings.html.height / regOne.settings.html.width;
+                var ratioTwo = regTwo.settings.html.height / regTwo.settings.html.width;
+                //Set class to sidebars div
+                lib.addClass(sideBarOne, 'sidebar-one');
+                lib.addClass(sideBarTwo, 'sidebar-two');
+                //Special settings
+                if (domain.indexOf('verivox.de') === -1) minWidthTwo = 160;
+
+                function adjustSize() {
+                    sidebarScale = (scale) ? scale : 0;
+                    var maxHeight = win.innerHeight - yPosStart;
+                    var css = '.sidebar-one {margin:0;} .hidebar {display:none !important;}';
+                    //set min size if sidebars have to keep ratio
+                    var minWidthOne = regOne.settings.html.width / sidebarScale;
+                    var minHeightOne = regOne.settings.html.height / sidebarScale;
+                    var minHeightTwo = regTwo.settings.html.height / sidebarScale;
+                    css += (keepRatio == 1) ? '.sidebar-one {min-width:' + regOne.settings.html.width / sidebarScale + 'px; min-height:' + minHeightOne + 'px;} .sidebar-two {min-width:' + regTwo.settings.html.width / sidebarScale + 'px; min-height:' + regTwo.settings.html.height / sidebarScale + 'px;} @media screen and (max-width: 1420px) { #SIMAD_wrapper_skyscraper {max-width: ' + regOne.settings.html.width / sidebarScale + 'px;} }' : '';
+                    css += (fitScreen) ? '.sidebar-one, .sidebar-two {max-height:' + maxHeight + 'px;}' : '';
+                    if (marginOne) sideBarOne.style.marginLeft = -marginOne + 'px';
+
+                    xPosOne = (mainContent) ? (+posSite.left + mainContent.offsetWidth) : posOne.left;
+                    xPosTwo = (mainContent) ? (+posSite.left - sideBarTwo.offsetWidth) : posTwo.left;
+                    distance = (mainContent) ? mainContent.offsetWidth : defaultDistance; //distance between sidebars
+                    widthOne = pBody.clientWidth - xPosOne; //calculate how many pixels are left for right sidebar
+                    if (publisherGuj == true || publisherGuj == "true") {
+                        if (typeof GujAd !== 'undefined' && GujAd.$('body').width()) posSiteLeft = ((GujAd.$('body').width() - gujContentWidth) / 2); //replaced "window.top.innerWidth" with "GujAd.$('body').width()"
+                        else posSiteLeft = ((window.top.innerWidth - gujContentWidth) / 2);
+                        //xPosOne = posSiteLeft + gujContentWidth;
+                        xPosTwo = posSiteLeft - sideBarTwo.offsetWidth;
+                        widthOne = pBody.clientWidth - xPosOne; //calculate how many pixels are left for right sidebar
+                        distance = gujContentWidth;
+                    } 
+
+                    widthTwo = xPosOne - distance; //calculate how many pixels are left for left sidebar
+                    newWidthTwo = (minWidthTwo && widthTwo <= minWidthTwo) ? minWidthTwo : widthTwo;
+                    if (keepRatio != 0) {
+                        //Set limits for right sidebar
+                        if (maxHeight / widthOne < ratioOne && maxHeight >= minHeightOne) {
+                            sideBarOne.style.height = maxHeight + 'px';
+                            sideBarOne.style.width = maxHeight / ratioOne + 'px';
+                        } else {
+                            sideBarOne.style.width = (widthOne <= minWidthOne || maxHeight <= minHeightOne) ? minWidthOne + 'px' : widthOne + 'px';
+                            sideBarOne.style.height = (widthOne <= minWidthOne || maxHeight <= minHeightOne) ? minHeightOne + 'px' : widthOne * ratioOne + 'px';
+                        }
+                        //Set limits for left sidebar
+                        if (maxHeight / widthTwo < ratioTwo && maxHeight >= minHeightTwo) {
+                            sideBarTwo.style.height = maxHeight + 'px';
+                            sideBarTwo.style.width = maxHeight / ratioTwo + 'px';
+                            newWidthTwo = maxHeight / ratioTwo;
+                        } else {
+                            sideBarTwo.style.height = (widthTwo <= minWidthTwo || maxHeight <= minHeightTwo) ? minHeightTwo + 'px' : widthTwo * ratioTwo + 'px';
+                            sideBarTwo.style.width = (widthTwo <= minWidthTwo || maxHeight <= minHeightTwo) ? minHeightTwo / ratioTwo + 'px' : newWidthTwo + 'px';
+                            newWidthTwo = (maxHeight <= minHeightTwo) ? minHeightTwo / ratioTwo : newWidthTwo;
+                        }
+                    } else {
+                        sideBarOne.style.width = (widthOne <= minWidthOne) ? minWidthOne + 'px' : widthOne + 'px';
+                        sideBarOne.style.height = (maxHeight <= minHeightOne) ? minHeightOne + 'px' : maxHeight + 'px';
+                        sideBarTwo.style.width = newWidthTwo + 'px';
+                        sideBarTwo.style.height = (maxHeight <= minHeightTwo) ? minHeightTwo + 'px' : maxHeight + 'px';
+                    }
+                    //hide left sidebar according to threshold
+                    (widthTwo <= minWidthTwo) ? lib.addClass(sideBarTwo, 'hidebar'): lib.removeClass(sideBarTwo, 'hidebar');
+
+                    if (lib.hasClass(sideBarOne, 'sidebar-fixed')) {
+                        sideBarOne.style.left = xPosOne + 'px';
+                    }
+
+                    sideBarTwo.style.marginLeft = -(+distance + newWidthTwo) + 'px';
+                    //override style element
+                    addCSS(css, 'adform-double-sidebar-size', pDoc);
+                    adjustPosition();
+                };
+
+                function adjustPosition() {
+                    if (sticky) { //set position fixed to sidebars
+                        if (domain.indexOf('moviepilot.de') > -1 || domain.indexOf('gamespilot.de') > -1) topOffset = pDoc.getElementsByClassName('navigation--wrapper')[0].offsetHeight;
+
+                        css = '.sidebar-fixed {margin-left:0 !important;}';
+                        posSite = mainContent && mainContent.getBoundingClientRect();
+                        posOne = sideBarOne.getBoundingClientRect();
+                        posTwo = sideBarTwo.getBoundingClientRect();
+
+                        xPosOne = (mainContent) ? (+posSite.left + mainContent.offsetWidth) : posOne.left;
+                        xPosTwo = (mainContent) ? (+posSite.left - sideBarTwo.offsetWidth) : posTwo.left;
+                        if (publisherGuj == true || publisherGuj == "true") {
+                            //xPosOne = posSiteLeft + gujContentWidth;
+                            xPosTwo = posSiteLeft - sideBarTwo.offsetWidth;
+                        }
+
+                        yPos = win.pageYOffset;
+                        if (yPos >= yPosStart) {
+                            lib.addClass(sideBarOne, 'sidebar-fixed');
+                            lib.addClass(sideBarTwo, 'sidebar-fixed');
+                            sideBarOne.style.left = xPosOne + 'px';
+                            css += '.sidebar-fixed.sidebar-two {left:' + xPosTwo + 'px !important;}';
+                            css += '.sidebar-fixed {position:fixed; top:' + topOffset + 'px !important;}';
+                        } else {
+                            // lib.removeClass(sideBarOne, 'sidebar-fixed');
+                            // lib.removeClass(sideBarTwo, 'sidebar-fixed');
+                            // sideBarOne.style.left = 0;
+
+                            lib.addClass(sideBarOne, 'sidebar-fixed');
+                            lib.addClass(sideBarTwo, 'sidebar-fixed');
+                            sideBarOne.style.left = xPosOne + 'px';
+                            css += '.sidebar-fixed.sidebar-two {left:' + xPosTwo + 'px !important;}';
+                            css += '.sidebar-fixed {position:fixed; top: 0px !important;}';
+
+                            //sideBarTwo.style.top = yPosStart + 'px';
+                        }
+                        addCSS(css, 'adform-double-sidebar', pDoc);
+                    }
+                };
+
+                function addCSS(css, id, doc) {
+                    cssId = typeof id !== 'undefined' ? id : 'adform-custom';
+                    doc = typeof doc !== 'undefined' ? doc : document;
+                    if (lib.byId(cssId, doc)) {
+                        style = lib.byId(cssId, doc);
+                        style.innerHTML = css;
+                    } else {
+                        style = doc.createElement('style');
+                        style.type = 'text/css';
+                        style.id = cssId;
+                        if (style.styleSheet) {
+                            style.styleSheet.cssText = css;
+                        } else {
+                            style.appendChild(doc.createTextNode(css));
+                        }
+                        doc.getElementsByTagName('head')[0].appendChild(style);
+                    }
+                }
+
+                function recheckSize() {
+                    setTimeout(adjustSize, 200); //resize event fails on minimize/maximize if transition is set
+                }
+
+                lib.addEvent(win, 'resize', adjustSize);
+                lib.addEvent(win, 'resize', recheckSize);
+                lib.addEvent(win, 'scroll', adjustPosition);
+                lib.addEvent(win, 'scroll', recheckSize);
+                recheckSize();
+            }
+
+        }
+    ]);
+
+})(window, document, (Adform = window.Adform || {}));
