@@ -90,7 +90,7 @@
                     'onlinewelten.com': '#main',
                     'songtexte.com': '#main',
                     'tier.tv': '#ads-outer',
-                    'stern.de': '#main-wrapper',
+                    'stern.de': '.page__content',
                     'chefkoch.de': '#page-wrapper',
                     'brigitte.de': '.main-wrapper',
                     'arcor.de': '.pContent',
